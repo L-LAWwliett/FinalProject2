@@ -10,7 +10,7 @@ namespace HangGame
         {
             try
             {
-                Console.WriteLine("=== Hang — Word-Guess Game ===");
+                Console.WriteLine(" Hang — Word-Guess Game ");
 
                 var words = WordsPool.GetDefaultWords();
                 var statsRepo = new XmlStatsRepository();

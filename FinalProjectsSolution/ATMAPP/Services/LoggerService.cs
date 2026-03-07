@@ -30,7 +30,7 @@ namespace ATMApp.Services
             }
         }
 
-        // აბრუნებს ყველა ლოგს
+        
         public IAsyncEnumerable<LogEntry> GetAllLogsAsync() => _repo.LoadLogsAsync();
     }
 }
